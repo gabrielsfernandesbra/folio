@@ -1,2 +1,2 @@
 # folio
-## meu portfólio profissional de desenvolvedor back-end.
+## Meu portfólio profissional de desenvolvedor back-end.

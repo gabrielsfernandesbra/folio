@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}Início | Gabriel S. Fernandes{% endblock %}
+{% block content %}
+<section class="home">
+    <div class="home-text">
+        <span class="subtitle">
+            Desenvolvedor Back-end
+        </span>
+        <h1>
+            Olá, eu sou<br>
+            <span class="highlight">Gabriel Fernandes.</span>
+        </h1>
+        <p>
+            Desenvolvedor back-end com foco em integrações,
+            automações e segurança de aplicações.
+            Transformando ideias em soluções eficientes,
+            seguras e funcionais.
+        </p>
+        <div class="home-buttons">
+            <a href="{{ url_for('projects') }}" class="btn">
+                Ver projetos
+            </a>
+            <a href="{{ url_for('about') }}" class="btn btn-outline">
+                Conheça-me
+            </a>
+        </div>
+        <div class="home-social">
+            <a href="https://github.com/gabrielsfernandesbra/"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub ↗
+            </a>
+        </div>
+    </div>
+    <div class="home-image">
+        <div class="image-glow">
+            <img
+                src="{{ url_for('static', filename='img/image.png') }}"
+                alt="Foto de Gabriel S. Fernandes"
+            >
+        </div>
+    </div>
+</section>
+{% endblock %}

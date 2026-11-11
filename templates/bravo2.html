@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block title %}Projetos | Gabriel S. Fernandes{% endblock %}
+{% block content %}
+<section class="section">
+    <span class="subtitle">Meu trabalho</span>
+    <h1>
+        Meus <span class="highlight">projetos.</span>
+    </h1>
+    <p>
+        Alguns projetos e soluções desenvolvidos durante
+        minha trajetória de aprendizado e desenvolvimento.
+    </p>
+    <div class="projects-grid">
+        <div class="project-card">
+            <span class="card-tag">Projeto 01</span>
+            <h3>Projeto em desenvolvimento</h3>
+            <p>
+                Espaço para apresentar uma aplicação,
+                automação ou integração desenvolvida por mim.
+            </p>
+            <div class="tech-list">
+                <span>Python</span>
+                <span>Back-end</span>
+            </div>
+        </div>
+        <div class="project-card">
+            <span class="card-tag">Projeto 02</span>
+            <h3>Projeto em desenvolvimento</h3>
+            <p>
+                Espaço para apresentar outro projeto,
+                suas funcionalidades e os problemas que resolve.
+            </p>
+            <div class="tech-list">
+                <span>Java</span>
+                <span>API</span>
+            </div>
+        </div>
+    </div>
+    <div class="project-github">
+        <h2>
+            Confira mais no <span class="highlight">GitHub</span> e meu <span class="highlight">Linkedin.</span>
+        </h2>
+        <p>
+            Explore meus repositórios e acompanhe meus projetos.
+        </p>
+        <a href="https://github.com/gabrielsfernandesbra/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn">
+            Acessar GitHub ↗
+        </a>
+        <a href="https://www.linkedin.com/in/gabrielsfernandesbra/"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn">
+            Acessar Linkedin ↗
+        </a>
+    </div>
+</section>
+{% endblock %}

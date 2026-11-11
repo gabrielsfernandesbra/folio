@@ -1,0 +1,23 @@
+<nav class="navbar">
+    <a href="{{ url_for('home') }}" class="nav-logo">
+        G<span>.</span>F
+    </a>
+    <div class="nav-links">
+        <a href="{{ url_for('home') }}"
+           class="{{ 'active' if request.endpoint == 'home' else '' }}">
+            Home
+        </a>
+        <a href="{{ url_for('about') }}"
+           class="{{ 'active' if request.endpoint == 'about' else '' }}">
+            Sobre
+        </a>
+        <a href="{{ url_for('projects') }}"
+           class="{{ 'active' if request.endpoint == 'projects' else '' }}">
+            Projetos
+        </a>
+        <a href="{{ url_for('skills') }}"
+           class="{{ 'active' if request.endpoint == 'skills' else '' }}">
+            Habilidades
+        </a>
+    </div>
+</nav>

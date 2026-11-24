@@ -1,6 +1,6 @@
 # folio
 ## Meu portfólio profissional de desenvolvedor back-end.
 
-MIT License
+## License
 
-Copyright (c) 2026 Gabriel S Fernandes
+This project is licensed under the MIT License.
